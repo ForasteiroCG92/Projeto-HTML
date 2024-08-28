@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+    color: white;
+}
+img {
+    border-radius: 50px;
+    width: 50dvh;
+    height: 50dvh;
+}
+strong {
+    color: blue;
+}
+button {
+    background-color: aqua;
+    color: aliceblue;
+    border-radius: 10px;
+}
