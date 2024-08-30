@@ -8,7 +8,7 @@
 body {
     box-sizing: border-box;
     display: flex;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     border: solid #5B6DCD 10px;
     padding: 5px;
@@ -40,30 +40,46 @@ body {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
 }
+
 .apresentacao__links {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
     justify-content: space-between;
     padding: 10px 20x;
     font-size: 16px;
     margin: 5px;
 }
+
+.apresentacao__links__subtitulo {
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
 .apresentacao__links__link {
-    background-color: #22d4fd;
-    width: 280px;
+    /* background-color: #22d4fd; */
+    border: 2px solid #22d4fd;
+    width: 378px;
     text-align: center;
     border-radius: 16px;
     font-size: 24px;
+    font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
-    color: #000000;
+    color: #f6f6f6;
     font-family: "Montserrat", sans-serif;
-    font-weight: 600;
 }
+
 img {
-    display: flex;
-    border-radius: 50px;
-    width: 50dvh;
-    height: 50dvh;
+    width: 467.71px;
+    height: 532px;
+    top: 253px;
+    left: 1032px;
+    gap: 10px;
+    border-radius: 16px 0px 0px 0px;
+    opacity: 0px;
 }
 
 .titulo-destaque {
@@ -73,6 +89,7 @@ img {
 .texto-destaque {
     color: darkturquoise;
 }
+
 /* button {
     width: Fixed (280px)px;
     height: Fixed (79px)px;
