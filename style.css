@@ -74,12 +74,13 @@ img {
     color: darkturquoise;
 }
 /* button {
-    display: flex;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #007BFF;
-    color: white;
-    border: solid rgb(15, 14, 14);
-    border-radius: 25px;
+    width: Fixed (280px)px;
+    height: Fixed (79px)px;
+    top: 681px;
+    left: 692px;
+    padding: 16px 0px 0px 0px;
+    gap: 16px;
+    border-radius: 16px 0px 0px 0px;
+    opacity: 0px;
     cursor:pointer;
 }
